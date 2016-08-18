@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">劲邻</string>
+
+    <string name="no_network_warn">无网络可用</string>
+    <string name="input_phone_hint">请输入手机号码</string>
+    <string name="input_password_hint">请输入密码</string>
+    <string name="input_code_hint">请输入验证码</string>
+    <string name="regist_agreement_string">注册即为同意《用户服务协议》</string>
+    <string name="input_new_password">请输入新密码</string>
+    <string name="input_confirm_password">请确认新密码</string>
+    <string name="default_none_string">--</string>
+    <string name="connect_error_string">服务器连接超时,请稍后再试</string>
+
+    <string name="guest_title_string">访客邀请</string>
+    <string name="guest_hint_string">扫码入车库，过门禁</string>
+    <string name="open_door_string">摇一摇开门</string>
+    <string name="open_door_hint">免门卡小区通行</string>
+    <string name="fill_phone_hint">请补全此房屋业主预留的手机号</string>
+    <string name="input_validate_code">请输入业主收到的验证码</string>
+    <string name="change_phone_warn">如已更换手机，需业主前往服务中心更新</string>
+    <string name="cannot_get_phone">如无法获取业主手机，可返回使用邀请码注册</string>
+    <string name="first_step_string">第一步：手机开启蓝牙</string>
+    <string name="shake_open_door">手机摇一摇开门</string>
+    <string name="open_door_warn1">手机开门只对有此功能的小区门禁有效</string>
+    <string name="open_door_warn2">请在设备2米范围内使用</string>
+    <string name="bluetooth_open_hint">劲邻申请开启蓝牙权限</string>
+    <string name="remember_my_choise">记住我的选择</string>
+    <string name="download_apk_now">正在下载新版本,请稍等...</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

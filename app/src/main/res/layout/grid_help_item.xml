@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_item_help"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@drawable/selector_text_field"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/help_circle"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/image_help_item"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/help_clean_bg" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/text_help_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_name"
+        android:textSize="12sp" />
+
+</LinearLayout>

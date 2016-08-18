@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/LetterIndexTextViewStyle"
+            android:text="当前定位城市" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/grey800" />
+
+    <RelativeLayout
+        android:id="@+id/item_location_city"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/text_location_city"
+            style="@style/LetterIndexTextViewStyle"
+            android:layout_centerVertical="true"
+            android:text="定位中..." />
+
+        <Button
+            android:id="@+id/btn_get_location"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_stroke_bg"
+            android:text="刷新"
+            android:textColor="@color/dark_yellow"
+            android:textSize="12sp" />
+    </RelativeLayout>
+</LinearLayout>
